@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Me giving you back rubbs and playing with your hair";
-  gif.src ="https://giphy.com/embed/naIhzcoCSBZm3FARM4";
+  gif.src ="https://giphy.com/gifs/naIhzcoCSBZm3FARM4";
   
   yesBtn.style.display = "none";
   const yremainingBtn = document.querySelector('.btn-group button:not(.no-btn)');
