@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Me giving you back rubbs and playing with your hair";
-  gif.src ="https://giphy.com/gifs/naIhzcoCSBZm3FARM4";
+  gif.src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm44cDVjMnhsNnZtdHdsaXp2emR1M2doOWRnczd5Njh4NnhqaDRscyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/naIhzcoCSBZm3FARM4/giphy.gif";
   
   yesBtn.style.display = "none";
   const yremainingBtn = document.querySelector('.btn-group button:not(.no-btn)');
