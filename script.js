@@ -9,9 +9,6 @@ yesBtn.addEventListener("click", () => {
   gif.src ="https://media.giphy.com/media/FDbIUZLwbCUS4786z3/giphy.gif";
   noBtn.style.display = "none";
   yesBtn.style.display = "none";
-  const remainingBtn = document.querySelector('.btn-group button:not(.no-btn)');
-    // Center the remaining button by setting margin to auto
-    remainingBtn.style.margin = 'auto';
 });
 
 noBtn.addEventListener("mouseover", () => {
