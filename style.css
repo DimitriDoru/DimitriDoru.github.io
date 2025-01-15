@@ -47,11 +47,11 @@ button {
     font-size: 1.2em;
 }
 button:nth-child(1) {
-    margin-left: -200px;
+    justify-content: center;
     background: #e94d58;
 }
 button:nth-child(2) {
-    margin-right: -200px;
+    margin-right: 0px;
     background: white;
     color: #e94d58;
 }
