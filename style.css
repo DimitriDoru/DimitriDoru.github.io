@@ -26,7 +26,7 @@ body {
 h2 {
     text-align: center;
     font-size: 1.5em;
-    color: #000000;
+    color: #A020F0;
     margin: 15px 0;
 }
 .btn-group {
@@ -46,15 +46,15 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: 2px solid #000000;
+    border: 2px solid #A020F0;
     font-size: 1.2em;
 }
 button:nth-child(1) {
     justify-content: center;
-    background: #000000;
+    background: #A020F0;
 }
 button:nth-child(2) {
     margin-right: 0px;
     background: white;
-    color: #000000;
+    color: #A020F0;
 }
