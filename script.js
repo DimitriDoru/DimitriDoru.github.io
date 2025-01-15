@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Me giving you back rubbs and playing with your hair";
-  gif.src ="https://media.giphy.com/media/giJwjx5braiNq/giphy.gif?cid=790b7611tp5kgrfl4hw4voixdri97f4g9wqwduhx5t43agq8&ep=v1_gifs_search&rid=giphy.gif&ct=g";
+  gif.src ="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2c3a281c2U3ejEzM2N0MHZnNnhtYWxhbTQxcmV4cnBmMXV3MzhjMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/giJwjx5braiNq/giphy.gif";
   yesBtn.style.display = "none";
   const yremainingBtn = document.querySelector('.btn-group button:not(.no-btn)');
     // Center the remaining button by setting margin to auto
