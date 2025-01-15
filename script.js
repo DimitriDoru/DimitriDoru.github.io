@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Me giving you back rubbs and playing with your hair";
-  gif.src ="https://tenor.com/bv6r3.gif";
+  gif.src ="https://tenor.com/view/hair-caressing-caress-love-couple-cuddle-gif-20005285";
   yesBtn.style.display = "none";
   const yremainingBtn = document.querySelector('.btn-group button:not(.no-btn)');
     // Center the remaining button by setting margin to auto
