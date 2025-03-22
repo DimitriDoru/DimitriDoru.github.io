@@ -3,17 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>message for you</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Thank You So Much!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 40px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .thank-you-section {
+            padding: 40px 0;
+        }
+        .thank-you-section h2 {
+            font-size: 2.5rem;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .thank-you-section p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+        }
+        .heart {
+            color: #ff6f61;
+            font-size: 3rem;
+            margin: 20px 0;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+        .memories-section {
+            background-color: #fff;
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+        .memories-section h2 {
+            font-size: 2rem;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .memories-section img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .fun-facts-section {
+            padding: 40px 0;
+        }
+        .fun-facts-section h2 {
+            font-size: 2rem;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .fun-facts-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .fun-facts-section li {
+            font-size: 1.2rem;
+            color: #555;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
 </head>
-<body style="background-color:#990000">
-    <div class="wrapper" color="990000">
-        <h2 class="question">I want us to be closer honey.<br>Honey before i meet you i was fine with being alone.<br>I didnt really want to spend time with someone else but you appeared<br>and i want to spend all the time that i can around you.<br>You make me see the world in vivid colors you make me feel alive.</h2>
-        <div class="btn-group" id="buttonGroup">
-            <button class="yes-btn">If you can`t sleep</button>
-        </div>
-        <img class="gif" alt="gif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGxwOTl4enBzZDFneHc5bGk2emI0MW1vYjJoZzZjZjhxZ2MxNHhxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JnyIWb7YK0wYT1Cyhj/giphy.gif"/>
+<body>
+    <header>
+        <h1>Thank You So Much! 💖</h1>
+    </header>
+
+    <div class="container">
+        <!-- Thank You Section -->
+        <section class="thank-you-section">
+            <h2>Hey You! 😊</h2>
+            <p>
+                I just wanted to take a moment to say <strong>THANK YOU</strong> from the bottom of my heart. 
+                You mean so much to me, and I’m so grateful for everything you do. You always make my day brighter. I’m so lucky to have you in my life! 
+            </p>
+            <div class="heart">❤️</div>
+        </section>
+
+        <!-- Memories Section -->
+        <section class="memories-section">
+            <h2>Some of My Favorite Memories with You</h2>
+            <img src="https://i.imgur.com/8TwdOdh.jpg" alt="Memory 3">
+            <img src="https://i.imgur.com/QiVyBw7.jpg" alt="Memory 4">
+            <img src="https://i.imgur.com/a6myMnJ.jpg" alt="Memory 5">
+            <img src="https://i.imgur.com/VeF5DZe.jpg" alt="Memory 6">
+            <p>Every moment with you is special, but these are some of my favorites. 💕</p>
+        </section>
+
+        <!-- Fun Facts Section -->
+        <section class="fun-facts-section">
+            <h2>Why You're Amazing</h2>
+            <ul>
+                <li>I like how stubborn you are.</li>
+                <li>I love how kind you are even though you get hurt because of it. 😞</li>
+                <li>You make me laugh like no one else. 😂</li>
+                <li>You’re my favorite person to talk to. 🥰</li>
+                <li>You’re just... YOU! And that’s why I care about you so much. 💖</li>
+            </ul>
+        </section>
     </div>
-    <script src="script1.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with lots of love and a little bit of code. 💌</p>
+    </footer>
 </body>
 </html>
