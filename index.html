@@ -24,6 +24,8 @@
             border-radius: 20px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.1);
             z-index: 10;
+            max-width: 400px;
+            width: 90%;
         }
 
         h1 { color: #d63384; margin-bottom: 20px; }
@@ -60,6 +62,14 @@
             0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
             100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
         }
+
+        .celebration-gif {
+            width: 100%;
+            max-width: 250px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
@@ -90,22 +100,21 @@
 
         // Make the "No" button run away
         function moveButton() {
-            const x = Math.random() * (window.innerWidth - 100);
-            const y = Math.random() * (window.innerHeight - 50);
+            const x = Math.random() * (window.innerWidth - 150);
+            const y = Math.random() * (window.innerHeight - 100);
             const btn = document.getElementById('noBtn');
-            btn.style.position = 'absolute';
+            btn.style.position = 'fixed';
             btn.style.left = x + 'px';
             btn.style.top = y + 'px';
         }
 
-        // Final celebration state
+        // Final celebration state with the new GIF
         function celebrate() {
             const content = document.getElementById('content');
             content.innerHTML = `
-                <h1 style="font-size: 3rem;">YAY! 🌹</h1>
-                <p>I knew you'd say yes!</p>
-                <img src="" width="200" style="margin-top:20px; border-radius:10px;">
-                <div class="tenor-gif-embed" data-postid="1431348599608247730" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/kiss-lip-kiss-hug-kiss-kiss-kiss-sending-kisses-gif-1431348599608247730">Kiss Lip Kiss Sticker</a>from <a href="https://tenor.com/search/kiss-stickers">Kiss Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                <h1 style="font-size: 2.5rem;">YAY! 🌹</h1>
+                <p>I knew you'd say yes! Can't wait.</p>
+                <img src="https://media.tenor.com/71G88I51670AAAAd/kiss-lip-kiss.gif" class="celebration-gif" alt="Kiss GIF">
             `;
         }
     </script>
